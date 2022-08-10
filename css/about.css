@@ -1,0 +1,140 @@
+:root{
+    --color1:gray;
+    --color2:black;
+
+    }
+body{
+ margin: 0;
+ background-color: aliceblue;
+
+ padding: 0;
+ font-family: sans-serif;
+
+}
+.container{
+    max-width: 250%;
+    margin: 0,auto;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+h1{
+    
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 0px;
+        background-image:linear-gradient( #080853,#0388fc);
+        -webkit-background-clip:text;
+        margin: 0;
+        margin-top: 10px;
+        -webkit-text-fill-color: transparent;
+ 
+}
+.sub-container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    margin: 200px;
+    margin-left: 300px;
+   
+    color: black;
+    position: relative;
+    background-color: rgba(255, 255, 255, .2);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  
+    width: 40%;
+    
+    
+}
+h3{
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 20px;
+    text-transform:uppercase;
+    color: #044463;
+}
+p{
+    margin: 5px;
+    padding: 0;
+    font: size 5px;
+    word-spacing: 2px;
+    
+    
+}
+
+li{
+    margin-left: 15px;
+    padding: 0;
+    font: size 5px;
+    word-spacing: 2px;
+    list-style-type: circle;
+    
+}
+.container1{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)) ,url("../img/bg1.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   
+    display: table;
+    margin: 0px;
+    padding: 0;
+ 
+    height: 90vh;
+    width: 80%;
+
+    margin-left: 125px;
+
+}
+.container2{
+    background-image: url("../img/bg2.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: table;
+ 
+    height: 100vh;
+    width: 80%;
+    margin-left: 125px;
+    
+
+}
+.container3{
+    background-image:url("../img/bg3.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: table;
+
+ 
+    height: 100vh;
+    width: 80%;
+    margin-left: 125px;
+    
+}
+ .container4{
+    background-position: center;
+    background-image: url("../img/bg4.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: table;
+   
+    height: 100vh;
+    width: 80%;
+    margin-left: 125px;
+        
+    
+    }
+
+
